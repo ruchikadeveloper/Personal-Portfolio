@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0rem;
+    padding: 0;
+    background-color: #bdb2e9;
+    transition: background-color 0.5s;
+}
+ 
+.sidebar {
+    background-color: #43208b;
+    padding: 8px;
+    border-radius: 3px;   
+}
+
+.sidebar a {
+    margin-right: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #a6a9e8;
+}
+
+
+.sidebar a:hover{
+    color: #b3fea95f;
+}
+.name h3{
+    font-size: 2.8rem;
+    margin-top: -2.2rem;
+    
+}
+
+
+.navnav img{
+    height: 30px;
+    width: 30px;
+    margin-right: 20rem; 
+    border-radius: 50%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Skills h2{
+ text-align: center;
+ padding-top: 28px;
+    
+}
+
+    .project-container {
+        padding-top: 38px;
+        display: flex;
+        width: 90%;
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: center; 
+        gap: 20px; 
+      }
+
+      .skill-container {
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: center; 
+       
+      
+      }
+
+      .project {
+        box-shadow: 0px 4px 13px rgba(73, 73, 168, 0.893);
+        padding: 30px; 
+        width: 9rem;
+        border-radius: 9%;
+       
+      }
+      
+    
+    .project img {
+        height: 4rem;
+        width: 6rem; 
+        
+    }
+    
+    .project h3 {
+        font-size: 15px;
+        text-align:center; 
+
+
+    }
+    .project p{
+        font-size: 12px;
+        text-align: center;
+    
+    }
+
+
+
+

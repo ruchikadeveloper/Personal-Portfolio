@@ -1,0 +1,463 @@
+/* Add your CSS styles here */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0rem;
+    padding: 0;
+    background-color: #bdb2e9;
+    transition: background-color 0.5s;
+
+}
+ 
+/* .container {
+    display:block;
+    justify-content: space-between;
+    background-color: #2b1513;
+ 
+}  */
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #43208b;
+    padding: 8px;
+    border-radius: 3px;   
+}
+
+.sidebar a {
+    margin-right: 80px;
+    font-size: 25px;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    text-decoration: none;
+    color: #a6a9e8;
+
+
+}
+
+
+.sidebar a:hover{
+    color: #b3fea95f;
+}
+.name h3{
+    font-size: 2.8rem;
+    margin-top: -2.2rem;
+    
+}
+
+
+.navnav img{
+    height: 30px;
+    width: 30px;
+    margin-right: 20rem; /* Add some spacing between the image and links */
+    border-radius: 50%;  
+}
+
+/* .sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    text-size-adjust:inherit;
+    color: #9ea520;
+    font-weight:bolder;
+} */
+
+/* Main content styles */
+.main {
+    /* flex-grow: 1; */
+    padding: 8px;
+}
+
+.infoContainer {
+    text-align: center;
+    margin-top: -19px;
+}
+
+
+
+
+.hello {
+    color: #3b2774;
+    font-size: 1.6rem;
+    font-style:oblique;
+    
+       
+}
+
+
+
+
+
+.name {
+    font-size: 3rem;
+    font-weight: bold;
+    
+
+}
+
+.about {
+    font-size: 24px;
+    color: #333;
+}
+
+.moreabout {
+    font-size: 0px;
+    margin-top: -2rem;
+    
+}
+.moreabout a {
+    margin-right: 20px;
+
+}
+
+#linkedin{
+    font-size: 30px; 
+    color:#4a3a80;       
+}
+
+.button {
+
+  
+}
+
+.button a{font-size: 0px;}
+
+.btn {
+    padding: 10px 22px;
+    background-color: #0723b0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #3a2c66;
+}
+.devpic {
+ display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+
+   
+}
+
+
+
+/* Developer picture */
+.devpic img {
+    width: 120px; /* Set the width as desired */
+  height: 120px; 
+ border-radius: 50%; }
+
+
+
+
+
+    
+    .project-container {
+        display: flex;
+        width: 90%;
+        flex-direction: row; /* Stack the projects vertically */
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        gap: 20px; /* Add some space between projects */
+      }
+      
+      .project {
+        box-shadow: 0px 4px 6px rgba(131, 129, 226, 0.893);
+        padding: 20px;
+      }
+      
+    
+    .project img {
+        height: 9rem;
+        width: 18rem; 
+        padding-top: 1rem;
+        /* Make the image 100% width of its container */
+    }
+    
+    .project h3 {
+        font-size: 15px;
+        text-align:center; 
+
+
+    }
+    .project p{
+        font-size: 12px;
+    
+    }
+    .project .skill-button {
+        background-color: #7642de;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px 10px;
+
+    
+    }
+    
+    .project .skill-button:hover {
+        background-color: #3a2c66;
+    }
+
+.Skills h2 {
+text-align: center;      
+}
+
+
+    /* Dark mode styles */
+.dark-mode {
+    background-color: #3e2217; /* Dark mode background color */
+}
+
+.dark-mode .container {
+    background-color: #10120f; /* Dark mode container background color */
+}
+
+.dark-mode .sidebar {
+    background-color: #100101; /* Dark mode sidebar background color */
+}
+
+.dark-mode .sidebar a {
+    color: #ddadfa; /* Dark mode sidebar link color */
+}
+
+.dark-mode .navnav img {
+    margin-right: 20px;
+}
+
+.dark-mode .btn {
+    background-color: #02094b; /* Dark mode button background color */
+    color: #7c5aba;
+}
+
+.dark-mode .name{
+    color: #a8a8a8;
+}
+
+.dark-mode .moreabout{
+    color: #9e6d6d; 
+}
+.dark-mode .hello{
+    color: #ffffff;    
+}
+
+.dark-mode .Skills{
+    color: #ca9c5d;
+}
+
+.dark-mode .sidebar a {
+    margin-right: 80px;
+    font-size: 27px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: #9f9b9b;
+}
+
+.dark-mode .navnav{
+    text-align: center;
+}
+
+
+.dark-mode .navnav img{
+    border-radius: 50%; }
+
+.dark-mode .darkmodetoggle{
+
+}
+
+
+#darkmodetoggle {
+    margin-left: 0rem; /* This pushes it to the right end */
+    font-size: 32px; /* Increase the font size to make it larger */
+    color: #fff; /* Moon icon color */
+    transition: transform 0.2s, color 0.2s; 
+     /* Add some padding for spacing */
+  }
+
+  #darkmodetoggle:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+    color: #fffffe; /* Change the color on hover */
+  }
+
+  .light-mode #darkmodetoggle {
+    color: #000; /* Set the default color for the moon icon in light mode */
+  }
+  
+
+
+
+.Skills p{
+text-align: center;
+}
+
+
+form {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.recommendation-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.recommendation-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommendation-box {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.add-comment {
+    background-color: #9038e3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.comments {
+    margin-top: 10px;}
+    
+
+
+.comment-form {
+    background-color: #aebaff8e;
+    padding: 20px;
+    max-width: 999px;
+    margin: 20px auto;
+    border-radius: 5px;
+   
+    
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ba75ca;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+button {
+    background-color: #8c40ea;
+    color: rgb(248, 242, 242);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #421970;
+}
+
+#comments {
+    text-align: left;
+    margin-top: 20px;
+  
+}
+
+
+footer {
+    display:inline-block ;
+}
+
+.footer a {
+    color: #2d9191;
+    border-top: 2px solid #000;
+}
+
+
+.wrapper {
+    padding: 0 20px;
+}
+
+.wrapper {
+    max-width: 90em;
+    padding: 0 2.5em;
+    margin: 0 auto;
+}
+
+.horizontal-list {
+    list-style: none; 
+    display: flex;    
+    padding: 0;      
+}
+
+.horizontal-list li {
+    margin-right: 10px; 
+}
+
+.text-link {
+    text-decoration: none;
+    color: #333;      
+}
+
+
+.horizontal-list a:hover {
+
+    color: #9217ba; }

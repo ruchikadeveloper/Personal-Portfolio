@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> 
+ 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                  <div class="navnav">
+
+                    <img src="./image/5190435.jpg" alt="icon">
+                    <a href="./index.html">Home </a>
+                    <a  href="./projects.html" >Projects</a>
+                    <a  href="#">Profile</a>
+                    <a href="">Skills</a>
+                    <i class="bi bi-moon" id="darkmodetoggle"></i>
+
+                  </div>
+                </div>
+            </nav>
+
+        </div>
+         
+            <div class="Skills">
+                <h2>Contact Details</h2>
+                <p>Email: ruchika12shakya@gmail.com</p>
+                <p>Phone: +91-7869479815</p>
+                <p>Dehi,India</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h1>Contact Me</h1>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script> 
+        function submitForm() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+
+            // Perform client-side validation (you can add more validation rules)
+            if (!name || !email) {
+                document.getElementById("message").textContent = "Name and Email are required.";
+                return;
+            }
+
+            // You can also make an AJAX request to submit data to a server here
+            // For this example, we'll simply display the submitted data
+            const submissionMessage = `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "N/A"}`;
+            document.getElementById("message").textContent = "Submitted Data:\n" + submissionMessage;
+
+            // Clear the form after submission
+            document.getElementById("contactForm").reset();
+        }
+    </script>
+
+
+
+
+
+</body>
+
+<script src="styles.js"></script>
+
+</html>
